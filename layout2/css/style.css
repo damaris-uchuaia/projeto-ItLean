@@ -1,0 +1,129 @@
+/************* CSS PADRAO*********************/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, main {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    font-family: 'roboto', 'open sans','Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;;
+}
+
+/****************HEADER********************************/
+
+header{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to top, #D4D6D6, white 80%, #FAFAFA);
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    z-index: 1000;
+
+}
+
+header img{
+    padding-left: 10em;
+    margin-top: 0.5em;
+}
+
+/***************** BARRA DE NAVEGAÇÃO*****************/
+
+nav{
+    display: flex;
+
+}
+
+header li{
+    float: left;
+    padding: 20px;
+    list-style-type: none;
+}
+
+header li a{
+    text-decoration: none;
+    color: #111;    
+    font-size: 20px;
+}
+
+header li a:hover{
+    border-bottom: 2px solid red;
+    transform: 2s;
+}
+
+#busca{
+    margin-right: 6em;
+}
+
+#busca input{
+    border-radius: 20px;
+    padding: 7px;
+}
+
+input:focus{
+    outline: none;
+}
+/***************** FOOTER *******************************/
+
+#fo{
+    position: absolute;
+    bottom: -1;
+    height: 100px;
+    background-color: #111;
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+#fo div{
+    margin-top:2rem;
+
+}
+
+#fo div p{
+     display: inline-block;
+}
+
+#img-fo{
+     display: inline-block;
+    margin-top: 0.9rem;
+}
+
+#divBusca{
+    border: 1px solid black;
+    width:250px;
+    height:32px;
+    margin-right: 140px;
+    }
+    #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+    }
+    #btnBusca{
+  float: right;
+    height:32px;
+    width:86px;
+    font-weight:bold;
+    margin-top: -32px;
+    border: none;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    }
+
+

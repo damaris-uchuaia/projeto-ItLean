@@ -1,0 +1,401 @@
+*{ margin: 0;
+    padding: 0;
+
+}*
+
+
+
+
+
+header{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to top, rgb(248, 248, 248) 80%, #8c9b96);
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    z-index: 1000;
+}
+
+header img{
+    padding-left: 10em;
+    margin-top: 0.5em;
+}
+
+/***************** BARRA DE NAVEGAÇÃO*****************/
+
+nav{
+
+    display: flex;
+
+}
+
+header li{
+    float: left;
+    padding: 20px;
+    list-style-type: none;
+}
+
+header li a{
+    text-decoration: none;
+    color: #111;
+    font-size: 20px;
+    font-family: 'roboto', 'open sans','Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+}
+
+header li a:hover{
+    border-bottom: 2px solid red;
+    transform: 2s;
+}
+
+
+#busca{
+    margin-right: 6em;
+}
+
+#busca input{
+    border-radius: 20px;
+    padding: 7px;
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+    
+  
+
+
+
+/*----------------------------------------------*/
+
+body{
+    background-color: #ececec;
+   
+    
+}
+
+h1{
+
+
+    text-align: center;
+    margin-top: 170px;
+    font-size: 50px;
+    margin: 80px;
+    font-family: 'roboto', 'open sans','Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+
+}
+
+#quem h1{
+
+   color: #111;
+   margin-top: 190px;
+   
+}
+
+#quem-foto{
+    text-align: center;
+}
+
+
+#banner{
+    
+    height: 190px;
+
+    
+}
+
+#quem-somos{
+
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+   
+    line-height: 40px;
+    margin-top: 10px;
+    justify-content: space-around;
+    background-color: #313131; /*rgb(255, 71, 71);*/
+    height: 170px;
+  /* background-image: linear-gradient(rgb(250, 115, 255), rgb(115, 115, 255)); */
+  /*background-color: rgb(63, 63, 63);
+  background-image: url(imagens/fundo5.png);*/
+
+  box-shadow: 1px 1px 1px rgb(14, 13, 13);
+
+    
+}
+
+#quem-somos p{
+    
+    font-size: 65px;
+    color: rgb(238, 237, 237) ;
+    margin: 30px;
+    font-family: 'roboto', 'open sans','Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+  
+}
+
+#quem-somos2{
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    line-height: 40px;
+    margin-top: -110px;
+    justify-content: space-around;
+    font-weight: 100px;
+    color: rgb(238, 237, 237) ;
+    font-family: 'roboto', 'open sans','Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    
+}
+
+#quem-somos2 p{
+    
+    font-size: 18px;
+    font-weight: 100px;
+   
+  
+}
+
+#bloco1{
+
+  background-color: #E4E4E3;  /* rgb(228, 250, 246); */
+
+
+    border-top-right-radius: 60px;
+    width: 800px;
+    height: auto;
+    margin-top: 150px;
+
+    z-index: 0;
+}
+
+#super{
+
+    width: 80%;
+    margin: auto;
+}
+
+/*-------edição dos textos-------------*/
+
+#h1titulo{
+    font-family: 'roboto', 'open sans','Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 30px; 
+    margin: 30px;
+
+   /*  width: 100%;
+    margin: 0;
+    background-color: #1cb7e6;
+    color: rgb(255, 255, 255);
+    border-top-right-radius: 30px; */
+
+    text-align: left;
+    padding-top: 20px;
+  
+
+}
+
+#h4titulo{
+    
+    font-family: 'roboto', 'open sans','Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin: 30px;
+    
+}
+
+#ptitulo{
+    font-family: 'roboto', 'open sans','Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 19px;
+    text-align: left;
+    line-height: 27px;
+    margin: 30px;
+    
+}
+/*-------bloco 2------------*/
+
+#bloco2{
+
+    background-color: #E4E4E3;;
+    overflow: initial;
+    border-top-left-radius: 60px;
+    width: 800px;
+    height: 420px;
+    margin-top: 90px;
+    margin-left: 470px;
+    z-index: 0;
+}
+
+#h1titulo2{
+    font-family: 'roboto', 'open sans','Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 30px;
+    text-align: right;
+    margin: 30px;
+    padding-top: 20px;
+
+}
+
+#h4titulo2{
+    
+    font-family: 'roboto', 'open sans','Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin: 30px;
+    
+}
+
+#ptitulo2{
+    font-family: 'roboto', 'open sans','Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 19px;
+    text-align: left;
+    line-height: 27px;
+    margin: 30px;
+    
+}
+/*-------merchan------------*/
+
+#merchan{
+
+    font-size: 40px;
+    font-family: 'roboto', 'open sans','Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    margin-top: 190px;
+    color: #111; 
+}
+
+/*-------------------*/
+/*
+#logo-black{
+
+
+    width: 190px;
+    height: auto;
+    margin-left: 570px;
+    margin-top: 30px;
+}*/
+
+
+#img-final{
+    height: 70px;
+    width: auto;
+    margin-bottom: 100px;
+}
+
+#img-final-div{
+    width: 100%;
+    text-align: center;
+}
+
+#logo-itlean{
+
+    height: 50px;
+    width: auto;
+ 
+}
+
+#pessoas-img{
+
+
+    
+   height: 300px;
+  
+   margin-left: -10px;
+   margin-top: 30px;
+   width: 1400px;
+ 
+
+}
+
+#pc{
+
+    height: 400px;
+    width: auto;
+    z-index: 10;
+    float: right;
+    margin-left: 50px;
+}
+
+#pc2{
+
+    height: 380px;
+    width: auto;
+    z-index: 10;
+    float: left;
+    margin-right: 60px;
+   
+}
+
+
+#pc3{
+
+    height: 400px;
+    width: auto;
+    z-index: 10;
+    float: right;
+    margin-left: 50px;
+}
+
+
+
+
+#bloco3{
+
+    background-color: #E4E4E3;  /* rgb(228, 250, 246); */
+  
+      
+      overflow: initial;
+      border-top-right-radius: 60px;
+      width: 800px;
+      height: 420px;
+      margin-top: 90px;
+      z-index: 0;
+  }
+
+  #bloco4{
+
+    background-color: #E4E4E3;;
+    overflow: initial;
+  
+    width: 800px;
+    height: 420px;
+    margin-top: 90px;
+    margin-left: 470px; /*mudei*/
+    z-index: 0;
+    
+}
+
+#ceta{
+    margin-top: 70px;
+    width: 560px;
+}
+  
+
+  /*--footer-----------------*/
+
+  #fo{
+    position: absolute;
+    bottom: -1;
+    height: 100px;
+    background-color: #111;
+    width: 100%;
+    color: #ebe1e1;
+    text-align: center;
+    display: inline-block;
+}
+
+#fo div{
+    margin-top:2rem;
+
+}
+
+#fo div p{
+     display: inline-block;
+}
+
+#img-fo{
+     display: inline-block;
+    margin-top: 0.9rem;
+}
+

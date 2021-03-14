@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/responsiveMain.css">
+
+</head>
+<body>
+    <header>
+        <div id="logo"><a href="index.html"><img src="imagens/lgoItlean.png" alt=""></a></div>
+        
+        <nav>
+            <ul>
+                <li><a href="Terceiro/index.html">Soluções</a></li>
+                <li><a href="layout2/itlean2.html">Sobre nós</a></li>
+                <li><a href="form/index.html">Contato</a></li>
+            </ul>
+
+        </nav>
+
+        <div id="busca">
+            <input type="text" placeholder="O que você procura?">
+            <a href="../recepcao.html"><input type="submit" value="Buscar" id=""></a>
+        </div>
+    </header>
+
+    <main>
+        <section id="section-primeira">
+            <div id="container-img-principal">
+                <img src="imagens/banner-4.png" alt="" id="img-principal">
+            </div>
+        </section>
+      
+        <section id="section-segunda">
+            <div class="section-2-item">
+                <img src="imagens/lam.png" alt="">
+                <h3>Soluções</h3>
+                <p>Nosso maior objetivo é cumprir com suas expectativas, proporcionando as melhores soluções do mercado.</p>
+            </div>
+
+            <div class="section-2-item">
+                <img src="imagens/han.png" alt="">
+                <h3>Clientes</h3>
+                <p>Mais do que apenas relações comerciais, construímos sólidas amizades e parcerias com nossos clientes.</p>            
+            </div>
+
+            <div class="section-2-item">
+                <img src="imagens/hear.png" alt="">
+                <h3>Nós</h3>
+                <p>A IT Lean é uma empresa 100% digital, capaz de fornecer as melhores soluções para o seu negócio.</p>            
+            </div>
+        </section>
+
+        
+
+        <section id="section-quinta">
+            <h2>Parceiros</h2>
+            <div id="section-quinta-item">
+                <img src="imagens/ibm-1.png" alt="">
+                <img src="imagens/lecom.png" alt="">
+                <img src="imagens/pitchwink.png" alt="">
+                <img src="imagens/pointware.png" alt="">
+                <img src="imagens/quality.png" alt="">
+                <img src="imagens/solo.png" alt="">
+                <img src="imagens/corpflex.png" alt="">
+                <img src="imagens/engemon.png" alt="">
+            </div>
+        </section>
+
+      <section id="section-quarta">
+            <div id="section-quarta-item">
+                <h2>Pense Inovação, Pense IT Lean!
+
+                </h2>
+            </div>
+        </section>
+        
+        <section id="section-terceira">
+            <div id="section-terceira-item1" class="section-3-item">
+                <img src="imagens/pic.jpg" alt="">
+            </div>
+            <div id="section-terceira-item2" class="section-3-item">
+                <h2>Junte-se a nós!</h2>
+                <p>Confira nossas vagas disponíveis.</p>
+
+                   <p><b> Venha fazer parte dessa equipe!</b></p>
+
+                   
+                   
+                   <div id="vagas-wrapper" width="100px">
+                        <div id="item1" class="item" ><a href="" onmouseover="hover('Requisitos: Experiência com Scrum Master, alta gerência, Kanban e rituais ágeis.')" width="100px">Scrum Master</a></div>
+                        <div id="item1" class="item"><a href="" onmouseover="hover('Requisitos: Experiência em desenvolvimento de aplicações multiplataforma, e multi-canais. Bem como, em métodos ágeis, mapeamento e análise de processos.')">Arquiteto de Sitemas</a></div>
+                        <div id="item1" class="item"><a href="" onmouseover="hover('Requisitos: Experiência com NojeJS e MongoDB, APIs, metologia ágil.')">NodeJS (Chatbot)</a></div>
+                        <div id="item1" class="item"><a href=""  onmouseover="hover('Requisitos: Programar, codificar e testar projetos criados. Manutenções em sistemas e apps já existentes.')">Java</a></div>
+                   
+                    </div>
+                    
+
+            
+        </section>
+        </div>
+        <div id="container-content"><div id="content"></div></div>
+        <div id="midias" align="center">
+                <a href="https://www.facebook.com/ItLean"><img src="imagens/facebookreal.png" alt=""></a>
+                <a href="https://www.linkedin.com/company/it-lean---brasil"><img src="imagens/linkedin.png" alt=""></a>
+        </div>
+    <div id=fo>
+        
+
+        <div>
+        <img src="imagens/lgo-itlean.png" alt="" id="img-fo">
+        <p>Lean - 2020 - Todos os direitos reservados.</p> 
+
+        </div>
+
+    
+    </div>
+    </main>
+    <script>
+        function hover(description) {
+            console.log(description);
+            
+            document.getElementById('content').innerHTML = description;
+            document.getElementById('content').style.visibility = "visible";
+            document.getElementById('section-terceira-item2').style.textAlign = "center";
+        }
+    </script>
+    
+</body>
+</html>

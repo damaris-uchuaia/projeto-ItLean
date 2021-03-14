@@ -1,0 +1,104 @@
+/*****************MAIN*********************************/
+
+@media only screen and (max-width: 1050px) {
+
+
+    #section-segunda{
+        position: relative;
+    display: block;
+
+    margin-top: 8em;
+    margin-bottom: 90rem;
+ 
+}
+
+#section-segunda img{
+    width: 80px;
+    margin-bottom: 7%;
+ 
+}
+
+.section-2-item{
+    background-color: #426156;
+    color: white;
+    padding: 2rem;
+    border-radius: 700px;
+    text-align: center;
+    height: 22rem;
+    margin-left: 16rem;
+    margin-top: 2rem;
+}
+
+.section-2-item p{
+    text-align: center;
+    width: 280px;
+    font-size: 18px;
+    line-height: 1.6em;
+
+}
+
+.section-2-item h3{
+    text-align: center;
+    width: 280px;
+    font-size: 26px;
+    margin-bottom: 6%;
+}
+
+
+/************TERCEIRA SECTION********************/
+
+#section-terceira{
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 8rem;
+}
+
+#section-terceira img{
+    display: none;
+}
+
+#section-terceira-item2 h2{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+
+}
+
+#section-terceira-item2 p{
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+
+}
+
+#vagas-wrapper{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 2rem;
+    
+
+}
+
+.item{
+    color: white;
+    border-radius: 20px;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.item a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+}
+
+@media only screen and (max-width: 650px){
+
+    .section-2-item{
+        margin-left: 5rem ;}
+}
